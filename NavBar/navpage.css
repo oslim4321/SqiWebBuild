@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+    /* transition: all 0.4s ease-in-out; */
+  
+    box-shadow: 0 2px 4px #ccc
+}
+.content-area{
+    max-width: 1200px;
+    margin: 0 auto;
+    height:80px;
+    display: flex;
+   justify-content: space-between;
+   /* padding: 10px; */
+    /* justify-content: center; */
+    
+}
+.logowrapper img{
+    max-height: 70%;
+    width: auto;
+    justify-content: center;
+}
+.navList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+ul li{
+    list-style-type: none;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    color: rgb(84, 79, 255);
+}
+/* .navList .ul .li .span .i{
+    color:black;
+    font-weight: 600;
+
+} */
+
+    

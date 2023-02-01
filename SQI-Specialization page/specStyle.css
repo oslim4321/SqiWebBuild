@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+}
+
+.container {
+    background-color: rgb(246,242,234);
+    height: 2000px;
+}
+
+.specArea {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.specArea h3 {
+    color: rgb(84,79,255);
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.specArea h1 {
+    color: rgb(0, 0, 0);
+    font-size: 52px;
+    letter-spacing: -1px;
+}
+.specArea p {
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+    font-weight: 500;
+}
+ /* programs  */
+
+.programs {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: red; */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.programs img {
+    width: 300px;
+    margin-top: 20px;  
+}
+.programs h1 {
+    /* width: 300px; */
+    margin-top: 20px;  
+}
+
+.programs p {
+    font-size: 14px;
+}
+
+.programs a {
+    margin-top: 20px;  
+    text-decoration: none;
+    color: black;
+}
+
+ /* frontend  */
+.programs .frontend {
+    margin: 30px;
+    width: 40%;
+    background-color: rgb(246,242,234);
+    border: 2px solid black;
+    border-color: black;
+    line-height: 28px;
+    padding: 20px;
+}
+.programs .frontend:hover {
+    box-shadow:  16px 16px 32px rgb(212, 210, 255),
+             -16px -16px 32px rgb(213, 212, 255);
+    border: none;
+    
+}
+
+
+
+/* backend  */
+
+.programs .backend {
+    margin: 30px;
+    width: 40%;
+    background-color: rgb(84,79,255);
+    color: white;
+    border: 2px solid black;
+    border-color: black;
+    line-height: 28px;
+    padding: 20px;
+}
+.programs .backend:hover {
+    box-shadow:  16px 16px 32px rgb(212, 210, 255),
+             -16px -16px 32px rgb(213, 212, 255);
+    border: none;
+    
+}
+
+.programs .backend a {
+    margin-top: 20px;  
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+
+/* native  */
+
+.programs .native {
+    margin: 30px;
+    width: 40%;
+    background-color: rgb(31,39,102);
+    color: white;
+    border: 2px solid black;
+    border-color: black;
+    line-height: 28px;
+    padding: 20px;
+    transition: all 1s ease;
+}
+.programs .native:hover {
+    box-shadow:  16px 16px 32px rgb(212, 210, 255),
+    -16px -16px 32px rgb(213, 212, 255);
+    border: none;
+    
+}
+
+.programs .native a {
+    margin-top: 20px;  
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}

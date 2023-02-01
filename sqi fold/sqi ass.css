@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containerIb{
+    max-width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+iframe{
+    border-radius: 20px;
+}
